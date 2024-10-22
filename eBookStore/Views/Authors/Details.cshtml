@@ -1,0 +1,44 @@
+﻿@model BussinessObject.DataAccess.Author
+
+@{
+    ViewData["Title"] = "Author Details";
+}
+
+<h1>Author Details</h1>
+
+<div>
+    <h4>Author</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Author ID</dt>
+        <dd class="col-sm-10">@Model.AuthorId</dd>
+
+        <dt class="col-sm-2">First Name</dt>
+        <dd class="col-sm-10">@Model.FirstName</dd>
+
+        <dt class="col-sm-2">Last Name</dt>
+        <dd class="col-sm-10">@Model.LastName</dd>
+
+        <dt class="col-sm-2">Phone</dt>
+        <dd class="col-sm-10">@Model.Phone</dd>
+
+        <dt class="col-sm-2">Address</dt>
+        <dd class="col-sm-10">@Model.Address</dd>
+
+        <dt class="col-sm-2">City</dt>
+        <dd class="col-sm-10">@Model.City</dd>
+
+        <dt class="col-sm-2">State</dt>
+        <dd class="col-sm-10">@Model.State</dd>
+
+        <dt class="col-sm-2">Zip</dt>
+        <dd class="col-sm-10">@Model.Zip</dd>
+
+        <dt class="col-sm-2">Email Address</dt>
+        <dd class="col-sm-10">@Model.EmailAddress</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>

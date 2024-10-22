@@ -1,0 +1,15 @@
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\bin\Debug\net7.0\DataAccess.dll
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\bin\Debug\net7.0\BussinessObject.dll
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\bin\Debug\net7.0\BussinessObject.pdb
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CopyComplete
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\DataAccess.dll
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+D:\Services\PRN231_ASM02_eBookStore\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll

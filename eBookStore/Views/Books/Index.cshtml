@@ -1,0 +1,93 @@
+﻿@using BussinessObject.DataAccess
+@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Books</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+<table class="table" id="table">
+    <thead>
+        <tr>
+            <th>
+               ID
+            </th>
+            <th>
+                Title
+            </th>
+            <th>
+               Type
+            </th>
+            <th>
+                Publisher ID
+            </th>
+            <th>
+               Price
+            </th>
+            <th>
+               Advance
+            </th>
+            <th>
+             Royalty
+            </th>
+            <th>
+                Royalty Sale
+            </th>
+            <th>
+                Note
+            </th>
+            <th>
+               Publish Date
+            </th>
+
+
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PubId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Advance)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Royalty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.YtlSales)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Note)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublishedDate)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BookId">Edit</a> | <a asp-action="Details"
+                                                                               asp-route-id="@item.BookId">Details</a> | <a asp-action="Delete" asp-route-id="@item.BookId">Delete</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
